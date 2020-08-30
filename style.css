@@ -1,0 +1,177 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.mobile{
+    border: 1px solid #eee;
+    margin: 1rem auto;
+    max-width: 480px;
+    border-radius: 2rem;
+    overflow: 800px;
+    overflow: hidden;
+}
+
+header{
+    background-color: #064dbb;
+    color: white;
+    height: 12rem;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 1.5rem;
+    padding-top: 2rem;
+    
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 5rem;
+}
+.card{
+    background-color: white;
+    border : 2px solid #eee;
+    border-radius: 1rem;
+    margin-right: 1.5rem;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    
+    /*Giving shadows*/
+    box-shadow: 2px 2px 12px 0 rgba(200,200,200,0.6);
+    
+}
+section{
+    margin: 1rem 1.5rem;
+    
+}
+.result{
+    margin-top: -6rem;
+    padding: 1rem 1.5rem;
+}
+.team{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+.team img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 9999px;
+    margin-left: 0.5rem;
+}
+.score{
+    margin-left: auto;
+    text-align: right;
+}
+
+.vs{
+    text-align : center;
+}
+.vs span{
+    display: inline-block;
+    background-color: #ccc;
+    color: #666;
+    font-size: 0.6rem;
+    border-radius: 0.25rem;
+    padding: 0.25rem;
+}
+
+.result .subtitle{
+    margin-bottom: 1rem;
+}
+
+.result p:last-child{
+    margin-top: 1rem;
+}
+
+
+menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+menu button{
+    border: none;
+    background : white;
+    padding: 1.5rem;
+    font-size: 1.2rem;
+}
+menu button.active{
+    color: #064dbb;
+    border-bottom: 4px solid #064dbb;
+}
+
+table{
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead{
+    color: black;
+}
+tbody{
+    color: #666;
+}
+
+tbody tr{
+    background-color: #f2f2f2;
+}
+
+td{
+    padding: 1rem 0.5rem;
+}
+tbody tr:nth-child(2n + 1){
+    background : linear-gradient(to bottom,#f2f2f2, white,70%,white);
+}
+thead th:first-child,
+tbody td:first-child{
+    text-align : left;
+    padding-left: 1.5rem;
+}
+thead th:last-child,
+tbody td:last-child{
+    padding-left: 1.5rem;
+}
+.pom{
+    margin: 1rem 1.5rem;
+    width: auto;
+    padding: 1rem 1.5rem;
+    position: relative;
+    height: 10rem;
+}
+
+.pom img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 10rem;
+    overflow: visible;
+}
+h2{
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+.pom h2{
+   margin-bottom: 4.5rem; 
+   
+}
+
+.pom .name{
+    font-size: 1.8rem;
+    position: absolute;
+    bottom: 2.5rem;
+}
+
+
+
+
